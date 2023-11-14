@@ -1,5 +1,3 @@
-from gc import disable
-from turtle import title
 import streamlit as st
 
 st.set_page_config(
