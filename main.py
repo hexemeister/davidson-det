@@ -24,6 +24,12 @@ show_pages(
     ]
 )
 
+# Carrega estilos personalizados
+def set_styles():
+    with open("style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+set_styles()
 
 st.markdown(
     """<script>document.querySelector('[data-testid="collapsedControl"]').remove()<script>""",

@@ -1,0 +1,23 @@
+/* geral */
+div.block-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+div[data-testid="stSidebarUserContent"]{
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+}
+[data-testid=stSidebar] [data-testid=stImage]{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+button[title="View fullscreen"]{
+    opacity: 1 !important;
+    transform: scale(1) !important;
+    right: -1rem;
+    border: 1px solid darkgray;
+    box-shadow: -5px 5px 5px darkgrey;
+}
